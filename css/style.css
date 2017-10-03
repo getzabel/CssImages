@@ -129,8 +129,19 @@ img{
   margin-top: 10%;
   transform: scale(1,1);
   border:solid 5px #fff;
+  background-position: 50% 50%;
+  background-size: cover;
 }
-
+img:hover{
+   transform: scale(1.2,1.2);
+   transition-duration: .5s;
+}
+#scale{
+  max-width: 160px;
+  max-height: 130px;
+  overflow: hidden;
+  object-fit: cover;
+}
 @media all and (max-width: 600px) {
   .intro-message > h1 {
     font-size: 38px;
