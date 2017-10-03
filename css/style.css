@@ -127,7 +127,7 @@ img{
   width:100%;
   margin-top: 10%;
   transform: scale(1,1);
-  border:solid 5px black;
+  border:solid 5px #fff;
 }
 
 @media all and (max-width: 600px) {
